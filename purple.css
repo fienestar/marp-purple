@@ -1,0 +1,77 @@
+/* @theme purple */
+
+section.invert {
+    background-color: rgb(38,35,53);
+}
+
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'D2Coding' !important;
+    font-variant-ligatures: none !important;
+}
+
+pre, pre code {
+    background-color: #2b2d33;
+    color: #fff;
+}
+
+.hljs-meta {
+    color: rgb(114, 228, 138) !important;
+}
+
+.hljs-meta-string {
+    color: rgb(255, 109, 54) !important;
+}
+
+.hljs-params {
+    color: rgb(255, 255, 255) !important;
+}
+
+.hljs-string {
+    color:rgb(190,140,190) !important;
+}
+
+.hljs-number, .hljs-literal {
+    color: hotpink !important;
+}
+
+.hljs-keyword {
+    color: #e6cd69 !important;
+}
+
+.hljs-title, .hljs-built_in {
+    color: #55b5db !important;
+}
+
+header {
+    text-align: left;
+}
+
+pre {
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 10px 68px;
+}
+
+blockquote::before, blockquote::after {
+    content: none !important;
+}
+
+blockquote.invert {
+    background-color: rgba(63, 55, 78, 0.3);
+    padding: 1rem;
+    border-left: 0.25rem solid rgb(86, 84, 88);
+}
+
+blockquote {
+    background-color: rgba(179, 159, 216, 0.1);
+    padding: 1rem;
+    border-left: 0.25rem solid rgb(179, 173, 185);
+}
+
+@import 'uncover'
